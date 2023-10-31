@@ -2,17 +2,19 @@ package io.codeforall.heapsdontlie;
 
 import java.io.*;
 import java.net.ServerSocket;
-import java.net.Socket;
+import java.util.concurrent.CopyOnWriteArrayList;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
 public class Server {
     int portNum = 8089;
     private ServerSocket bindSocket = null;
+    private CopyOnWriteArrayList list;
 
     public static void main(String[] args) {
         Server server = new Server();
         server.listen(server.portNum);
+        CopyOnWriteArrayList list = new CopyOnWriteArrayList<>();
     }
 
     private void listen(int portNum) {
@@ -34,6 +36,9 @@ public class Server {
             } catch (IOException e) {
                 System.out.println(e);
             }
+
         }
+
     }
+
 }

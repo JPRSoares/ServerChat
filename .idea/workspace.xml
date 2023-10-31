@@ -1,16 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0a7ff8f8-328b-4a58-81d5-17bc043a9153" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ServerChat.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/io/codeforall/heapsdontlie/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/io/codeforall/heapsdontlie/Server.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/io/codeforall/heapsdontlie/Worker.java" afterDir="false" />
+    <list default="true" id="0a7ff8f8-328b-4a58-81d5-17bc043a9153" name="Changes" comment="First">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/io/codeforall/heapsdontlie/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/io/codeforall/heapsdontlie/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/io/codeforall/heapsdontlie/Worker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/io/codeforall/heapsdontlie/Worker.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,8 +64,16 @@
       <updated>1698761090739</updated>
       <workItem from="1698761092126" duration="1215000" />
       <workItem from="1698762324006" duration="56000" />
-      <workItem from="1698762387218" duration="7245000" />
+      <workItem from="1698762387218" duration="9538000" />
     </task>
+    <task id="LOCAL-00001" summary="First">
+      <created>1698770244587</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1698770244587</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -87,5 +89,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First" />
+    <option name="LAST_COMMIT_MESSAGE" value="First" />
   </component>
 </project>
