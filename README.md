@@ -1,8 +1,7 @@
-# ServerChat
-
-# Java Web Server
+# Java Web Server Chat
 
 This repository contains a simple multithreaded web server implementation in Java. The server is designed to handle multiple client connections concurrently, allowing clients to send messages that are broadcast to all connected clients.
+--> This is a basic implementation. <--
 
 ## Overview
 
@@ -23,7 +22,7 @@ $ java io.codeforall.heapsdontlie.Server
 Once the server is running, you can connect to it using any TCP client (e.g., netcat, telnet). For example, using netcat:
 $ nc localhost 8089
 
-**Features**
+## Features
 Multi-threaded server handling.
 Easy to scale with Executors.newCachedThreadPool().
 Shared message broadcasting to all clients.
@@ -31,7 +30,7 @@ Graceful handling of client disconnections.
 Contribute
 Contributions to this project are welcome! Here's how you can contribute:
 
-**Fork the repository.**
+## Fork the repository.
 
 Create a new branch for your feature (git checkout -b feature/fooBar).
 Commit your changes (git commit -am 'Add some fooBar').
